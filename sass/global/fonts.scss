@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/opensans.woff") format("woff");
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/opensansbold.woff") format("woff");
+		font-style: normal;
+		font-weight: bold;
+}
+
+/* 
+ @font-face {
+    font-family: 'BloggerSans';
+    src: url('../fonts/BloggerSans.eot'); 
+    src: url('../fonts/BloggerSans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BloggerSans.woff') format('woff'), 
+         url('../fonts/BloggerSans.ttf') format('truetype'), 
+         url('../fonts/BloggerSans.svg#BloggerSans') format('svg'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility; */

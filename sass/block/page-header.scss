@@ -1,28 +1,23 @@
-.page-header {
-
-}
-
-.logo svg {
+.logo img {
 	width: 86px;
 	height: 35px;
+	padding-left: 80px;
+	padding-top: 22px;
 }
 
-@media #($tablet) {
-	.logo svg {
-		width: 113px;
-		height: 46px;
-	}
-
-
+	@media #{$tablet} {
+		.logo img {
+			width: 113px;
+			height: 46px;
+		}
 
 }
 
-@media #($desktop) {
-	.logo svg {
-		width: 149px;
-		height: 72px;
+	@media #{$desktop} {
+		.logo img {
+			width: 149px;
+			height: 72px;
+			
 	}
-
-
 
 }

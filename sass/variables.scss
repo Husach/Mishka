@@ -1,7 +1,14 @@
-/* @mobile-only: ~"(max-width:767px)";
-@tablet: ~"(min-width: 768px)";
-@desktop: ~"(min-width: 1150px)"; */
-
 $mobile: "(max-width: 767px)";
 $tablet: "(min-width: 768px)";
 $desktop: "(min-width: 1150px)";
+
+$retina: (min-resolution: 144dpi), 
+		 (min-resolution: 1.5dppx);
+
+$text-hover: rgba(0, 0, 0, 0.6);
+$text-active: rgba(0, 0, 0, 0.3);
+
+$left-btn: #63d1bb;
+$left-btn-hover: #59d5bc;
+$right-btn: #56c3b2;
+$right-btn-hover: #46c1ae;
