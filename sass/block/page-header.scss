@@ -1,0 +1,28 @@
+.page-header {
+
+}
+
+.logo svg {
+	width: 86px;
+	height: 35px;
+}
+
+@media #($tablet) {
+	.logo svg {
+		width: 113px;
+		height: 46px;
+	}
+
+
+
+}
+
+@media #($desktop) {
+	.logo svg {
+		width: 149px;
+		height: 72px;
+	}
+
+
+
+}
