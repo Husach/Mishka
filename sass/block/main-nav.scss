@@ -17,18 +17,15 @@
 	padding: 28px 0 27px 75px;
 	border-bottom: 1px solid #ececec;
 }
-
 .main-nav__link--hidden {
 	display: none;
 }
-
 .main-nav__link:hover {
-	color: #{$text-hover};
+	color: $text-hover;
 }
 .main-nav__link:active {
-	color: #{$text-active};
+	color: $text-active;
 }
-
 @media #{$tablet} {
 	.main-nav__list {
 		flex-direction: row;

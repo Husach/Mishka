@@ -1,0 +1,33 @@
+.featured-container {
+	margin: 0 30px;
+}
+.featured__title {
+	font-size: 24px;
+	margin: 0;
+	padding-top: 30px;
+}
+.featured__special {
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #63d1bb;
+	margin: 0;
+}
+.featured__intro,
+.featured__cell,
+.featured__cell-param {
+	@include small;
+}
+.featured__cell,
+.featured__cell-param {
+	border-bottom: 1px solid #ececec;
+}
+.featured__cell-param {
+	width: 100px;
+}
+.featured__price {
+	font-size: 16px;
+	line-height: 24px;
+	color: #444;
+	text-align: center;
+}

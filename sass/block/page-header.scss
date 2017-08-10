@@ -1,23 +1,23 @@
-.logo img {
+.logo {
+	max-width: 320px;
+}
+.logo a {
+	display: block;
 	width: 86px;
-	height: 35px;
-	padding-left: 80px;
+	height: 35px;	
+	margin: 0 auto;
 	padding-top: 22px;
 }
 
-	@media #{$tablet} {
-		.logo img {
-			width: 113px;
-			height: 46px;
-		}
-
-}
-
-	@media #{$desktop} {
-		.logo img {
-			width: 149px;
-			height: 72px;
-			
+@media #{$tablet} {
+	.logo img {
+		width: 113px;
+		height: 46px;
 	}
-
+}
+@media #{$desktop} {
+	.logo img {
+		width: 149px;
+		height: 72px;
+	}
 }
