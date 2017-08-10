@@ -4,3 +4,11 @@
 	line-height: 24px;
 	color: #444444;
 }
+
+@mixin clearfix() {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

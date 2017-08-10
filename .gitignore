@@ -1,8 +1,7 @@
 _psd/
 _jpg/
-*.jpg
 build/
 node_modules/
+*.sublime*
 .DS_Store
 Thumbs.db
-*.sublime*

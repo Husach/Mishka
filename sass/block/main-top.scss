@@ -15,8 +15,12 @@
 	padding: 88px 0;
 	margin: 0 0 35px 0;
 }
+.main-top__btn {
+	@include clearfix;
+}
 .main-top__link {
 	display: block;
+	float: left;
 	font-family: Tahoma, Arial;
 	font-size: 18px;
 	line-height: 24px;
@@ -29,9 +33,21 @@
 .left-btn__link:hover {
 	background: $left-btn-hover;
 }
+.left-btn__svg {
+	float: right;
+	margin-right: 45px;
+	padding-top: 23px;
+	fill: #3bb09d;
+}
 .right-btn {
 	background: $right-btn;
 }
 .right-btn__link:hover {
 	background: $right-btn-hover;
+}
+.right-btn__svg {
+	float: right;
+	margin-right: 30px;
+	padding-top: 23px;
+	fill: #35a999;
 }
