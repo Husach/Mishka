@@ -10,41 +10,43 @@
 
 <body>
   <header class="page-header">
-	  	<div class="logo">
-	  		<a class="logo__link">
-	  			<picture>
-	  				<source media="(min-width:1150px)" srcset="img/icons/logo-desktop.svg">
-	  				<source media="(min-width:768px)" srcset="img/icons/logo-tablet.svg">
-	  				<img src="img/icons/logo-mobile.svg" alt="logo" width="86" height="35">
-	  			</picture>
-	  		</a>
-	  	</div>
+  	<div class="logo">
+  		<a class="logo__link">
+  			<picture>
+  				<source media="(min-width:1150px)" srcset="img/icons/logo-desktop.svg">
+  				<source media="(min-width:768px)" srcset="img/icons/logo-tablet.svg">
+  				<img src="img/icons/logo-mobile.svg" alt="logo" width="86" height="35">
+  			</picture>
+  		</a>
+  	</div>
 
-			<nav class="main-nav">
-				<ul class="main-nav__list">
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link">Каталог товаров</a>
-					</li>
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link">Вязание на заказ</a>
-					</li>
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link  main-nav-header__link-search">Поиск по сайту</a>
-					</li>
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link  main-nav-header__link-cart">Корзина: пока пусто</a>
-					</li>
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link  main-nav__link--hidden">Новые поступления</a>
-					</li>
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link  main-nav__link--hidden">Распродажа</a>
-					</li>
-					<li class="main-nav__item">
-						<a href="#" class="main-nav__link  main-nav-header__link  main-nav__link--hidden">Бесплатная доставка по России</a>
-					</li>
-				</ul>
-			</nav>
+		<nav class="main-nav  main-nav--closed">
+			<button class="main-nav__toggle" type="button">Открыть меню</button>
+
+			<ul class="main-nav__list  main-nav__list--closed">
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link">Каталог товаров</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link">Вязание на заказ</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link  main-nav-header__link-search">Поиск по сайту</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link  main-nav-header__link-cart">Корзина: пока пусто</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link  main-nav__link--hidden">Новые поступления</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link  main-nav__link--hidden">Распродажа</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#" class="main-nav__link  main-nav-header__link  main-nav__link--hidden">Бесплатная доставка по России</a>
+				</li>
+			</ul>
+		</nav>
   </header>
 
   <main class="page-main">
@@ -170,9 +172,6 @@
 				</div>
 
 
-
-
-
 			</div>
 		</div>
 
@@ -185,6 +184,6 @@
   <footer class="page-footer">
   
   </footer>
-
+	<script src="js/js.js" type="text/javascript"></script>
 </body>
 </html>
