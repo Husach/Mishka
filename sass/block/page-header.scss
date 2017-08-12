@@ -1,23 +1,31 @@
+.page-header-container {
+	margin: 0 30px;
+}
 .logo {
 	position: relative;
-	max-width: 320px;
+	border-bottom: 1px solid #ececec;
 }
 .logo a {
+	padding-top: 22px;
+	margin: 0 auto 22px auto;
+}
+.logo__link {
 	display: block;
 	width: 86px;
-	height: 35px;	
-	margin: 0 auto;
-	padding-top: 22px;
+	height: 35px;
 }
-
 @media #{$tablet} {
-	.logo img {
+	.page-header-container {
+		margin: 0 50px;
+	}
+	.logo__link {
+		float: left;
 		width: 113px;
 		height: 46px;
 	}
 }
 @media #{$desktop} {
-	.logo img {
+	.logo__link {
 		width: 149px;
 		height: 72px;
 	}

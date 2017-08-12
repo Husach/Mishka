@@ -11,3 +11,10 @@ body {
 	line-height: 30px;
 	color: #231f20;
 }
+@media #{$tablet} {
+	.title-h2 {
+	font-size: 40px;
+	line-height: 50px;
+	color: #000;
+	}	
+}

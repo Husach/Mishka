@@ -31,3 +31,21 @@
 	color: #444;
 	text-align: center;
 }
+
+@media #{$tablet} {
+	.featured-container {
+		margin: 0 50px;
+	}
+	.featured__title {
+		float: left;
+	}
+	.featured__special {
+		float: right;
+	}
+	.featured-top {
+		@include clearfix;
+	}
+	.featured__table {
+		float: left;
+	}
+}
