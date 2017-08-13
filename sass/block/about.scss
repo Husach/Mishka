@@ -1,14 +1,27 @@
-.about__container {
+.about-container {
 	margin: 0 30px;
 }
 .about__intro {
 	font-size: 16px;
 	line-height: 24px;
-	margin: 0;
+	margin: 10px 0 10px 0;
 }
 .about__cell {
 	min-height: 120px;
 }
 .about__svg {
 	fill: #63d1bb;
+}
+@media #{$tablet} {
+	.about-container {
+		margin: 0 50px;
+		font-size: 0;
+	}
+	.about__col {
+		float: left;
+		width: 50%;
+	}
+	.about__cell {
+		margin-bottom: 20px;
+	}
 }

@@ -15,6 +15,7 @@
 	font-size: 0;
 	cursor: pointer;
 	border: none;
+	outline: none;	
 	background: #fff;
 }
 .main-nav__list--closed {
@@ -29,7 +30,7 @@
 	height: 2px;
 	background: #221f1f;
 	box-shadow: 0 8px 0 0 #221f1f,
-			    	  0 16px 0 0 #221f1f;	
+			    	  0 16px 0 0 #221f1f;
 }
 .main-nav--opened .main-nav__toggle::before,
 .main-nav--opened .main-nav__toggle::after {
@@ -102,8 +103,14 @@
 }
 
 @media #{$tablet} {
+	.main-nav {
+		@include clearfix;
+	}
 	.main-nav__link {
-		font-size: 14px;		
+		font-size: 14px;	
+	}
+	.main-nav-header__link {
+		padding: 33px 0 32px 75px;
 	}
 	.main-nav-header__link-search {
 		font-size: 0;
@@ -121,6 +128,7 @@
 		left: 150px;
 	}
 	.main-nav__list--closed {
+		float: right;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;

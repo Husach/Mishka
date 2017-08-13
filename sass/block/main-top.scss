@@ -30,8 +30,9 @@
 .left-btn {
 	background: $left-btn;
 }
-.left-btn__link:hover {
+.left-btn:hover {
 	background: $left-btn-hover;
+	cursor: pointer;
 }
 .left-btn__svg {
 	float: right;
@@ -42,8 +43,9 @@
 .right-btn {
 	background: $right-btn;
 }
-.right-btn__link:hover {
+.right-btn:hover {
 	background: $right-btn-hover;
+	cursor: pointer;
 }
 .right-btn__svg {
 	float: right;
@@ -82,4 +84,8 @@
 			background-image: url("../img/hero-desktop@2x.jpg");
 		}
 	}
+}
+
+@media #{$desktop} { 
+	
 }

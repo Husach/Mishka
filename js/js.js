@@ -5,7 +5,6 @@ var list = document.querySelector(".main-nav__list");
 var btn = document.querySelector(".main-nav__toggle");
 var open = document.querySelector(".main-nav--opened");
 
-
 btn.addEventListener("click", function(event) {
 	event.preventDefault();
 	if (list.classList.contains("main-nav__list--closed")) {

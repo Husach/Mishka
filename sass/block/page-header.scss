@@ -26,6 +26,9 @@
 	}
 }
 @media #{$desktop} {
+	.page-header {
+		width: 1150px;
+	}
 	.logo__link {
 		width: 149px;
 		height: 72px;
