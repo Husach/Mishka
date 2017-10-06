@@ -95,12 +95,19 @@
 		width: 43%;
 		margin-bottom: 20px;
 	}
-	
+	.featured-bg-top {
+		width: 768px;
+	}
 	.featured-bg-bottom {
-		width: 100%;
 		height: 23px;
+		width: 768px;
 	}
 	.featured__intro {
 		margin: 0 0 50px 0;
+	}
+}
+@media #{$desktop} {
+	.featured {
+		width: 1150px;
 	}
 }

@@ -2,7 +2,7 @@ body {
 	font-family: 'OpenSansBold', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 30px;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	color: #000;
 }
@@ -13,8 +13,14 @@ body {
 }
 @media #{$tablet} {
 	.title-h2 {
-	font-size: 40px;
-	line-height: 50px;
-	color: #000;
+		font-size: 40px;
+		line-height: 50px;
+		color: #000;
 	}	
+}
+@media #{$desktop} {
+	body {
+		width: 1150px;
+		margin: 0 auto;
+	}
 }

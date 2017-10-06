@@ -1,6 +1,5 @@
 _psd/
 _jpg/
-build/
 node_modules/
 *.sublime*
 .DS_Store
