@@ -1,6 +1,9 @@
 _psd/
 _jpg/
+js/
+img/
+fonts/
 node_modules/
-*.sublime*
 .DS_Store
 Thumbs.db
+*.sublime*
